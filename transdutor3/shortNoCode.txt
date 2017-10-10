@@ -1,5 +1,5 @@
-0	1	[^aeioum_0-9]	=
-1	1	[^aeioum_0-9]	=
+0	1	[^aeioumr_0-9]	=
+1	1	[^aeioumr_0-9]	=
 1	0	eps	=
 0	2	m	=
 2	2	[^aeioub_0-9]	=
