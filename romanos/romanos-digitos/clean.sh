@@ -1,1 +1,9 @@
-rm romanos-digitos-V/*.pdf romanos-digitos-V/*.fst romanos-digitos-I/*.pdf romanos-digitos-I/*.fst *.fst *.pdf
+cd romanos-digitos-V
+./clean.sh
+cd ../romanos-digitos-I
+./clean.sh
+cd test-inputs
+rm *.fst *.pdf
+cd ..
+rm *.fst *.pdf
+

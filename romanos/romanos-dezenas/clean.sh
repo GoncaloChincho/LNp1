@@ -1,1 +1,8 @@
-rm romanos-dezenas-L/*.pdf romanos-dezenas-L/*.fst romanos-dezenas-X/*.pdf romanos-dezenas-X/*.fst *.fst *.pdf
+cd romanos-dezenas-X/
+./clean.sh
+cd ../romanos-dezenas-L/
+./clean.sh
+cd ../test-inputs/
+rm *.fst *.pdf
+cd ../
+rm *.fst *.pdf
