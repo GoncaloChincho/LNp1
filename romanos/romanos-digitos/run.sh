@@ -6,5 +6,5 @@ cd ..
 
 ###TRANSDUCER
 ###TRANSLATES ARABIC DIGITS INTO ROMAN
-fstunion romanos-digitos-I.fst romanos-digitos-V.fst > romanos-digitos.fst
+fstunion romanos-digitos-I/romanos-digitos-I.fst romanos-digitos-V/romanos-digitos-V.fst > romanos-digitos.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait romanos-digitos.fst | dot -Tpdf  > romanos-digitos.pdf

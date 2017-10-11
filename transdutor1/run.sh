@@ -1,6 +1,14 @@
+cd ../romanos/
+./run.sh
+cd ../transdutor1
+
 ##COMPILING UNDERSCORE
 fstcompile --isymbols=syms.sym --osymbols=syms.sym space.txt | fstarcsort > space.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait space.fst | dot -Tpdf  > space.pdf
+
+
+fstcompile --isymbols=syms.sym --osymbols=syms.sym letras.txt | fstarcsort > letras.fst
+fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait letras.fst | dot -Tpdf  > letras.pdf
 
 ###PROCESSES WORDS WITH LETTERS OR NUMBERS
 fstunion letras.fst ../romanos/romanos.fst > union.fst

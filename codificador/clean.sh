@@ -5,6 +5,6 @@ cd ../transdutor2
 cd ../transdutor3
 ./clean.sh
 cd ../codificador/test-inputs/
-rm*.pdf *.fst
+rm *.pdf *.fst
 cd ..
 rm  *.pdf *.fst
