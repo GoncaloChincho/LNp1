@@ -18,5 +18,4 @@ fstcompose sorted1.fst sorted2.fst > gof12.fst
 
 ###TRANSLATES ENCODES WORDS AND ARABIC NUMBERS VIA ROMAN NUMBERS
 fstcompose gof12.fst sorted3.fst > codificador.fst
-fstrmepsilon 
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait codificador.fst | dot -Tpdf  > codificador.pdf
