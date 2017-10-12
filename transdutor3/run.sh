@@ -5,16 +5,17 @@ fstcompile --isymbols=syms.sym --osymbols=syms.sym code.txt | fstarcsort > code.
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait code.fst | dot -Tpdf  > code.pdf
 
 ###PROCESSES LETTERS TO BE ENCODED OR LETTERS NOT TO BE ENCODED
-fstunion nocode.fst code.fst > union3.fst
+fstunion nocode.fst code.fst > union33.fst
+fstrmepsilon union33.fst > union3.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait union3.fst | dot -Tpdf  > union3.pdf
 
 ###PROCESSES ALL LETTERS AND ENCODES SOME
 fstclosure union3.fst > closure3.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait closure3.fst | dot -Tpdf  > closure3.pdf
 
+###PROCESSES WORD WITH UNDERSCORE
 fstcompile --isymbols=syms.sym --osymbols=syms.sym ../transdutor1/space.txt | fstarcsort > space.fst
 
-###PROCESSES WORD WITH UNDERSCORE
 fstconcat closure3.fst space.fst > concat3.fst
 
 ###PROCESSES MORE THAN ONE WORD

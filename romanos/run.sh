@@ -6,7 +6,8 @@ cd ..
 
 ###TRANSDUCER
 ###TRANSLATES ARABIC NUMBERS INTO ROMAN FROM 0 TO 99
-fstconcat romanos-dezenas/romanos-dezenas.fst romanos-digitos/romanos-digitos.fst > romanos.fst
+fstconcat romanos-dezenas/romanos-dezenas.fst romanos-digitos/romanos-digitos.fst > concat.fst
+fstrmepsilon concat.fst > romanos.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait romanos.fst | dot -Tpdf  > romanos.pdf
 
 

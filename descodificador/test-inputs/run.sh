@@ -40,13 +40,8 @@ fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait shortPangram.fst |
 
 fstcompile --isymbols=syms.sym --osymbols=syms.sym longPangram.txt | fstarcsort > longPangram.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait longPangram.fst | dot -Tpdf  > longPangram.pdf
-
-<<<<<<< HEAD
 fstcompile --isymbols=syms.sym --osymbols=syms.sym longEnunciado1.txt | fstarcsort > longEnunciado1.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait longEnunciado1.fst | dot -Tpdf  > longEnunciado1.pdf
 
 fstcompile --isymbols=syms.sym --osymbols=syms.sym longEnunciado2.txt | fstarcsort > longEnunciado2.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait longEnunciado2.fst | dot -Tpdf  > longEnunciado2.pdf
-
-=======
->>>>>>> 3113ad89b01fbb3fb1e42b685fd4006dec37c0c3
