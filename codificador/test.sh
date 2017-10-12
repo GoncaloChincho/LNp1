@@ -4,9 +4,12 @@ cd ..
 
 ###TESTS
 ###SUCCESSFUL
+<<<<<<< HEAD
 fstcompose test-inputs/longEnunciado.fst codificador.fst > longEnunciado.fst
 fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait longEnunciado.fst | dot -Tpdf > longEnunciado.pdf
 
+=======
+>>>>>>> 3113ad89b01fbb3fb1e42b685fd4006dec37c0c3
 fstcompose test-inputs/99_.fst codificador.fst > ex1.fst
 fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait ex1.fst | dot -Tpdf > ex1.pdf
 

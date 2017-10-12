@@ -27,6 +27,9 @@ fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait 57.fst | dot -Tpdf
 
 fstcompile --isymbols=syms.sym --osymbols=syms.sym  90.txt | fstarcsort > 90.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait 90.fst | dot -Tpdf  > 90.pdf
+<<<<<<< HEAD
 
 fstcompile --isymbols=syms.sym --osymbols=syms.sym  93.txt | fstarcsort > 93.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait 93.fst | dot -Tpdf  > 93.pdf
+=======
+>>>>>>> 3113ad89b01fbb3fb1e42b685fd4006dec37c0c3

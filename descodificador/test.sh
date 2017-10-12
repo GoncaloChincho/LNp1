@@ -40,6 +40,7 @@ fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait foxtrot_61_golf_.fst 
 fstcompose test-inputs/pangramAndNumbers.fst descodificador.fst > pangramAndNumbers.fst
 fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait pangramAndNumbers.fst | dot -Tpdf > pangramAndNumbers.pdf
 
+<<<<<<< HEAD
 fstcompose test-inputs/shortPangram.fst descodificador.fst >outPangram.fst
 fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait shortPangram.fst | dot -Tpdf > shortPangram.pdf
 
@@ -50,3 +51,10 @@ fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait longEnunciado1.fst | 
 
 fstcompose test-inputs/longPangram.fst descodificador.fst > outEnunciado2.fst
 fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait longEnunciado2.fst | dot -Tpdf > longEnunciado2.pdf
+=======
+fstcompose test-inputs/shortPangram.fst descodificador.fst > shortPangram.fst
+fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait shortPangram.fst | dot -Tpdf > shortPangram.pdf
+
+fstcompose test-inputs/longPangram.fst descodificador.fst > longPangram.fst
+fstdraw --isymbols=syms.sym --osymbols=syms.sym --portrait longPangram.fst | dot -Tpdf > longPangram.pdf
+>>>>>>> 3113ad89b01fbb3fb1e42b685fd4006dec37c0c3

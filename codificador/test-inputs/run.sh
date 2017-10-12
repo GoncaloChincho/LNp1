@@ -1,7 +1,10 @@
 ##TESTES
+<<<<<<< HEAD
 fstcompile --isymbols=syms.sym --osymbols=syms.sym longEnunciado.txt | fstarcsort > longEnunciado.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait longEnunciado.fst | dot -Tpdf  > longEnunciado.pdf
 
+=======
+>>>>>>> 3113ad89b01fbb3fb1e42b685fd4006dec37c0c3
 fstcompile --isymbols=syms.sym --osymbols=syms.sym 99_.txt | fstarcsort > 99_.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait 99_.fst | dot -Tpdf  > 99_.pdf
 

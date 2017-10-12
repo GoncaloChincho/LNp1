@@ -6,6 +6,14 @@ cd ../transdutor3
 ./run.sh
 cd ../descodificador
 
+<<<<<<< HEAD
+=======
+###MIRRORS THE LISTED TRANSDUCERS
+fstreverse ../transdutor1/transdutor1.fst > reverted1.fst
+fstreverse ../transdutor2/transdutor2.fst > reverted2.fst
+fstreverse ../transdutor3/transdutor3.fst > reverted3.fst
+
+>>>>>>> 3113ad89b01fbb3fb1e42b685fd4006dec37c0c3
 ###INVERTS THE TAGS OF INPUT:OUTPUT
 fstinvert ../transdutor1/transdutor1.fst > inverted1.fst
 fstinvert ../transdutor2/transdutor2.fst > inverted2.fst
