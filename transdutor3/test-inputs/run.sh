@@ -10,3 +10,9 @@ fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait batata_XXVIII_.fst
 
 fstcompile --isymbols=syms.sym --osymbols=syms.sym ir_tambem_.txt | fstarcsort > ir_tambem_.fst
 fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait ir_tambem_.fst | dot -Tpdf  > ir_tambem_.pdf
+
+fstcompile --isymbols=syms.sym --osymbols=syms.sym mmomb_.txt | fstarcsort > mmomb_.fst
+fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait mmomb_.fst | dot -Tpdf  > mmomb_.pdf
+
+fstcompile --isymbols=syms.sym --osymbols=syms.sym mambem_mamamoo_.txt | fstarcsort > mambem_mamamoo_.fst
+fstdraw    --isymbols=syms.sym --osymbols=syms.sym --portrait mambem_mamamoo_.fst | dot -Tpdf  > mambem_mamamoo_.pdf
