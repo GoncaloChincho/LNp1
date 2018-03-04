@@ -1,2 +1,2 @@
-# First Project for the Course of Natural Language Processing
-Text translation/decoding using transducers
+ Text translation/decoding using transducers built with unix shell scripts and the OpenFST toolkit
+
